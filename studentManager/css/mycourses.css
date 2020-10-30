@@ -1,0 +1,277 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 10%;
+    margin-left: 10%;
+    opacity: 1;
+}
+
+#navigation {
+    width: 200px;
+    background-color: gainsboro;
+    text-align: center;
+    margin-left: -20%;
+    height: 580px;
+
+    float: left;
+}
+
+#navigation a {
+    display: inline-block;
+    margin-bottom: 75px;
+    padding: 15px;
+    font-size: larger;
+}
+
+#welcome {
+    Width: 700px;
+    height: 50px;
+    color: whitesmoke;
+    background-color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#mycourses {
+
+    float: left;
+    width: 150px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 35px;
+    font-size: 30px;
+
+    width: 500px;
+
+    background-color: blanchedalmond;
+
+}
+
+#mycourses td {
+    border: 2px solid rgb(214, 169, 169);
+
+}
+
+#courseTable {
+    margin-top: 1px;
+}
+
+#message {
+    float: left;
+    color: red;
+    font-size: 23px;
+}
+
+#selectHeading {
+    margin-bottom: -150px;
+}
+
+
+/* portrait phone */
+@media all and (min-width: 960px) {
+    body {
+        font-size: 18px;
+
+    }
+
+    #navigation {
+        margin-top: 40px;
+        background-color: gainsboro;
+        text-align: center;
+        width: 20%;
+        margin-left: -12%;
+
+        height: 540px;
+        float: left;
+        font-size: 12px;
+
+
+    }
+
+    #navigation a {
+        display: block;
+        margin-bottom: 100px;
+        padding: 7px;
+
+    }
+
+    #mycourses {
+        width: 60%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #courseTable {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+
+    #mycourses td {
+        width: 80%;
+        margin-left: 10%;
+        font-size: 12px;
+    }
+
+    #selectHeading {
+        font-size: 18px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 959px) and (min-width: 600px) {
+    body {
+        font-size: 16px;
+
+    }
+
+    #navigation {
+
+        background-color: gainsboro;
+        text-align: center;
+        width: 30%;
+        margin-left: 35%;
+        margin-right: 35%;
+        height: 240px;
+        display: block;
+        font-size: 12px;
+
+
+    }
+
+    #navigation a {
+        display: block;
+        margin-bottom: 7px;
+        padding: 5px;
+
+    }
+
+    #welcome {
+        margin-left: 10%;
+        width: 80%;
+        margin-right: 10%;
+        height: 70px;
+        color: whitesmoke;
+        background-color: darkgreen;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: larger;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    #mycourses {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #courseTable {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+
+    #mycourses td {
+        width: 80%;
+        margin-left: 10%;
+        font-size: 12px;
+    }
+
+    #selectHeading {
+        font-size: 18px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 599px) and (min-width: 320px) {
+    body {
+        font-size: 10px;
+
+    }
+
+    #navigation {
+
+        background-color: gainsboro;
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 20%;
+        height: 280px;
+        display: block;
+
+
+    }
+
+    #navigation a {
+        display: block;
+        margin-bottom: 2px;
+        padding: 5px;
+
+    }
+
+    #welcome {
+        Width: 300px;
+        height: 50px;
+        margin-left: -3px;
+        color: whitesmoke;
+        background-color: darkgreen;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    #mycourses {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #courseTable {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+
+    #mycourses td {
+        width: 80%;
+        margin-left: 10%;
+        font-size: 12px;
+    }
+
+    #selectHeading {
+        font-size: 18px;
+    }
+}

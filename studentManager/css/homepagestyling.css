@@ -1,0 +1,41 @@
+/**
+*This is the css file for changing the css properties of the student Manager App 
+*By Roshan Shah,000793559
+*
+*/
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 15%;
+    margin-left: 15%;
+    opacity: 1;
+}
+
+#heading {
+    color: royalblue;
+    text-align: center;
+}
+
+#homepageimage {
+    background-image: url("images/homepageimage.jpg");
+    background-repeat: no-repeat;
+    background-size: fill;
+    width: 70%;
+    height: 500px;
+
+
+}
+
+
+#inform {
+    color: red;
+    font-size: larger;
+    font-family: cursive;
+    opacity: 1;
+}
+
+#login {
+    margin-left: -40px;
+    margin-top: 10px;
+    opacity: 1;
+}

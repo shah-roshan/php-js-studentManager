@@ -1,0 +1,45 @@
+<!-- This the index file for the student manager app that contains a form that lets the user enter the 
+credentials and sign in to the app
+By Roshan Shah,000793559 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/homepagestyling.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</head>
+
+<body>
+        <h1 id="heading">Student Manager</h1>
+    <div id="homepageimage">
+   
+    <br>
+    <div id="inform">Sign In to View or Change your courses or Withdraw from your program</div>
+    <div id="login">
+    <form action="php/loggedinhome.php" method="POST" id="credentials">
+        <label>Email</label><br>
+        <input type="text" id="id" name="id" placeholder="Email or StudentID">
+        <br>
+        <label>Password</label><br>
+        <input type="password" id="password" name="password" placeholder="Password">
+        <div id="fail"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <input type="submit" name="Login" value="Log in" id="loginButton">
+       
+        <br>
+        </form> 
+    </div><!--end of form-->
+
+
+    </div><!--end of homepageimage-->
+</body>
+
+</html>
